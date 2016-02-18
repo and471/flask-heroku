@@ -1,14 +1,12 @@
 language: python
 python:
-  - "2.6"
-  - "2.7"
-# command to install dependencies
+- '2.6'
+- '2.7'
 install:
-  - pip install .
-  - pip install -r requirements.txt
-
+- pip install .
+- pip install -r requirements.txt
 deploy:
   provider: heroku
   app: aqueous-forest-19215
   api_key:
-    secure: 74a1f9a6-927a-4795-9501-0df15be843fe
+    secure: eXOzU1bOu/TkORVepFHNAg9yU6tS85KZavF3YC/V+j1anfBUHBaCK3mg4QloFP2YH8UI64u3UEgCD3EZyAP2XxOdvFGG4DbD6duS1etnRYZHzwPkAEXJnVMuj4mWI5eQBf/6Xpnbxn1/GvILL8cS/qSoGYlk39DOKNLP8SHquJv5Ez1p0nEpjL0vAwnk7yjWC8zS9tjldtoeEfNAFIphVorumtDX1VdVuC0P1ug5Hk4ttnh/wOVRbKyM2Q4DVJ157R3h8n7crn+9NrPnOnXRedoDnMou3zhAphxjlQpZs8wZZJt+J1EJI1mu8NzEVjyrrmxUYDE/xOqt7VnQ8317VrnJ7z2UcVCLc3pbOyQDP048MBQlHVeKdb7PwgocsQWo90q6BPyJJnEt5db9fnQ2O97dvDH9sE0AzVlb3CsYp1k0XSH/6QsmV15al5TfupNJWCsqnAhs9rd2GJN/JYDF8zNTOwd0b3JWCUv85uJtvb1fx6TQdYV0pyANbJkCdyfka7356vjdPPQ75mBNfgcv7K7GEyi06etREe6ZPBzmqVlc4MqAO7l9RPJbsa/O99n34/uD/8Qpe9fO3nB2LM+5NZ8A/OdStxBRCGgylOf0GS/RdX0PLLYIV/VLWI1KM/WRbVExowQDGeLT/AjTjxq+6TsXAkLmPel2mjEvbNDN1X0=
