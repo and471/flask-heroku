@@ -1,0 +1,14 @@
+language: python
+python:
+  - "2.6"
+  - "2.7"
+# command to install dependencies
+install:
+  - pip install .
+  - pip install -r requirements.txt
+
+deploy:
+  provider: heroku
+  app: aqueous-forest-19215
+  api_key:
+    secure: 74a1f9a6-927a-4795-9501-0df15be843fe
